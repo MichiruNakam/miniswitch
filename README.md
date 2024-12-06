@@ -1,6 +1,6 @@
 # Miniswitch
 
-A declarative switch that returns the value. With `miniswitch` you can directly do switch cases when you just want to assign a value by directly creating a `const` instead of declaring a `let` and imperatively assign the value.
+A declarative switch that returns the value. With `miniswitch` you can directly do `switch` cases when you just want to assign a value by directly creating a `const` instead of declaring a `let` and imperatively assign the value.
 
 ## Why miniswitch?
 
@@ -30,7 +30,6 @@ case "warning":
 default:
     result = "Unknown type";
 }
-return result;
 
 console.log(result); // "Operation successful"
 ```
